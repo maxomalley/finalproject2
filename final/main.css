@@ -1,0 +1,226 @@
+ body {
+            font-family: 'Garamond', serif;
+            margin: 0;
+            padding: 1000;
+            background-color: #9491EF
+            color: #333;
+        }
+
+        header {
+            background-color: #006994; /* header background*/ 
+          
+ color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+ul {
+    list-style-type: none;
+    padding: 8px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #00acc1;
+    border-radius: 100px;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: #0b2d61;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #fbb8ee;
+}
+
+.active {
+    background-color: #fbb8ee;
+}
+
+        nav ul {
+            list-style-type: square;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 100px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #70bcd4; 
+        }
+
+        #hero {
+            background-color:#4db6ac; 
+            color: white;
+            text-align: center;
+            padding: 10px 10px;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        #hero h2 {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+
+        #about, #mission, #get-involved  {
+            padding: 50px;
+            background-color: #f1f1f1;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+#employee1, #employee2, #employee3,#employee4, #employee5  {
+            padding: 50px;
+            background-color: #f1f1f1;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+ font-size: 30px;
+ }
+#product1, #product2, #product3, #product4,  {
+            padding: 50px;
+            background-color: #f1f1f1;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+ font-size: 30px;
+
+        }
+
+
+
+        #about {
+            background-color: #80deea;         }
+
+        #mission {
+            background-color: #b2ebf2;         }
+
+        #get-involved {
+            background-color: #4db6ac; 
+        }
+ #employee1 {
+            background-color: #80deea;         }
+ #employee2 {
+            background-color: #b2ebf2;         }
+
+ #employee3 {
+            background-color: #4db6ac;         }
+
+ #employee4 {
+            background-color: #80deea;         }
+
+ #employee5 {
+            background-color: #b2ebf2;         }
+ #product1 {
+            background-color: #4db6ac;         }
+
+ #product2 {
+            background-color: #80deea;         }
+
+ #product3 {
+            background-color: #b2ebf2;         }  
+
+ #product4 {
+            background-color: #4db6ac;         }
+
+
+
+        h2 {
+            color: #006994; /*about us why us title  */
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #006994; /* Ocean blue */
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            font-size: 14px;
+color: white;
+
+           
+        @media screen and (max-width: 768px) {
+            nav li {
+                display: block;
+                text-align: center;
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            #hero {
+                padding: 60px 20px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            #about, #mission, #get-involved {
+                padding: 30px;
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
